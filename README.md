@@ -6,7 +6,7 @@ validate form for: required fields [required], min length[min_length],
                    not equal[notEqualTo: jQuery object].
  
  EXAMPLE:
- 
+```
  $("form").validate({
      error_position: 'after',  // or 'before'
      error_source: '<label>[]</label>',  // [] - error message
@@ -31,3 +31,4 @@ validate form for: required fields [required], min length[min_length],
           errors: {required: 'This field is req.', min_length: 'min length is 5 digits.', regexp: 'some error'}
       }]
   });
+```
